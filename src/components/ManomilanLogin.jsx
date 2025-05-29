@@ -72,7 +72,7 @@ export default function ManomilanLogin() {
           {/* PIN Input */}
           <div>
             <div className="space-y-2">
-              <label className="text-gray-500 text-sm">Password</label>
+              <label className="text-gray-500 text-sm">Pin</label>
               <div className="flex space-x-2 justify-start">
                 {pin.map((digit, index) => (
                   <input
